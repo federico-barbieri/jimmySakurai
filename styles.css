@@ -22,7 +22,7 @@ html{
 /* OBSESSION MAIN SCREEN */
 
 #obsession{
-    height: 120vh;
+    height: 140vh;
     max-width: 80vw;
     display: flex;
     flex-direction: column;
