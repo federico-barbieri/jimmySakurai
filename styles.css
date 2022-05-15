@@ -38,9 +38,9 @@ html{
     font-size: 2rem;
     margin: 3rem auto 5rem auto;
     z-index: 100;
-    color: #E5890A;
+    color: black;
     font-stretch: extra-expanded;
-    text-shadow: 1px 1px 4px black;
+    text-shadow: 1px 1px 4px #E5890A;
     
 }
 
@@ -49,9 +49,10 @@ html{
     font-size: 4.5rem;
     z-index: 100;
     font-stretch: expanded;
-    text-shadow: 1px 1px 4px #E5890A;
+    text-shadow: 1px 1px 4px black;
     writing-mode: vertical-lr;
     text-orientation: upright;
+    color: #E5890A;
 }
 
 .white-part{
