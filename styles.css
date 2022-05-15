@@ -390,3 +390,15 @@ html{
     margin: 10rem 2rem 0 auto;
 }
 
+.white-part{
+    position: absolute;
+    background-image: url('img/guitar/white-part.svg');
+    background-repeat: no-repeat;
+    width: 15rem;
+    height: 15rem;
+    margin: 10.5rem auto 0 auto;
+    transform: translateY(37rem);
+    opacity: 0.5;
+    
+}
+
