@@ -361,7 +361,7 @@ html{
     margin: 0 auto;
     overflow: hidden;
     font-family: fenwick-outline, sans-serif;
-    border: 3px solid blue;
+    
 }
 
 .hr8{
@@ -416,21 +416,21 @@ html{
     margin: 0 auto;
     overflow: hidden;
     font-family: fenwick-outline, sans-serif;
-    border: 3px solid orange;
+    
 }
 
 .for-the-past{
     font-size: 1.5rem;
-    width: 50%;
+    width: 70%;
     text-align: left;
-    margin: 7.5rem auto 0 2rem;
+    margin: 4rem auto 0 2rem;
 }
 
 .jimmy-page{
     font-size: 1.5rem;
     width: 50%;
     text-align: right;
-    margin: 12rem 2rem 0 auto;
+    margin: 8rem 2rem 0 auto;
 }
 
 .white-part3{
@@ -440,7 +440,7 @@ html{
     width: 15rem;
     height: 15rem;
     margin: 10.5rem auto 0 auto;
-    transform: translateY(9.5rem);
+    transform: translateY(7rem);
     opacity: 0.5;
     
 }
