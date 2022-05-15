@@ -364,6 +364,17 @@ html{
     border: 3px solid blue;
 }
 
+.hr8{
+    transform: translateY(7rem);
+}
+
+.hr9{
+    transform: translateY(17rem);
+}
+
+.hr10{
+    transform: translateY(27rem);
+}
 
 .if-you-never{
     font-size: 1.5rem;
@@ -405,18 +416,34 @@ html{
     margin: 0 auto;
     overflow: hidden;
     font-family: fenwick-outline, sans-serif;
-    border: 3px solid blue;
+    border: 3px solid orange;
 }
 
-.hr8{
-    transform: translateY(7rem);
+.for-the-past{
+    font-size: 1.5rem;
+    width: 50%;
+    text-align: left;
+    margin: 7.5rem auto 0 2rem;
 }
 
-.hr9{
-    transform: translateY(17rem);
+.jimmy-page{
+    font-size: 1.5rem;
+    width: 50%;
+    text-align: right;
+    margin: 12rem 2rem 0 auto;
 }
 
-.hr10{
-    transform: translateY(27rem);
+.white-part3{
+    position: absolute;
+    background-image: url('img/guitar/white-part.svg');
+    background-repeat: no-repeat;
+    width: 15rem;
+    height: 15rem;
+    margin: 10.5rem auto 0 auto;
+    transform: translateY(9.5rem);
+    opacity: 0.5;
+    
 }
+
+
 
