@@ -440,11 +440,15 @@ html{
 }
 
 .hr9{
-    transform: translateY(7rem);
+    transform: translateY(10rem);
 }
 
 .hr10{
-    transform: translateY(17rem);
+    transform: translateY(20rem);
+}
+
+.hr11{
+    transform: translateY(30rem);
 }
 
 
