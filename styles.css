@@ -35,7 +35,7 @@ html{
 }
 
 .tribute-p{
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 3rem auto 5rem auto;
     z-index: 100;
     color: #E5890A;
@@ -44,19 +44,23 @@ html{
 }
 
 .obsession-h1{
-    margin-top: 7.5rem;
-    font-size: 4rem;
+    margin-top: 4rem;
+    font-size: 4.5rem;
     z-index: 100;
     font-stretch: expanded;
     text-shadow: 1px 1px 4px #E5890A;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
 }
 
 .white-part{
+    position: absolute;
     background-image: url('img/guitar/white-part.svg');
     background-repeat: no-repeat;
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    height: 20rem;
     margin: 10rem auto 0 auto;
+    transform: translateY(37rem);
     opacity: 0.5;
 }
 
