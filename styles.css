@@ -37,6 +37,9 @@ html{
     font-size: 2rem;
     margin: 3rem auto 5rem auto;
     z-index: 100;
+    color: #E5890A;
+    font-stretch: extra-expanded;
+    text-shadow: 1px 1px 4px black;
 }
 
 .obsession-h1{
