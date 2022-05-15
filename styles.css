@@ -32,6 +32,7 @@ html{
     text-align: center;
     margin: 0 auto;
     overflow: hidden;
+    font-family: fenwick-outline, sans-serif;
 }
 
 .tribute-p{
@@ -47,7 +48,7 @@ html{
 .obsession-h1{
     margin-top: 4rem;
     font-size: 4.5rem;
-    z-index: 100;
+    z-index: 30;
     font-stretch: expanded;
     text-shadow: 1px 1px 4px black;
     writing-mode: vertical-lr;
@@ -117,6 +118,7 @@ html{
     background-color: white;
     border-radius: 10px;
     opacity: 0.7;
+    z-index: 50;
 }
 
 .hr-a{
