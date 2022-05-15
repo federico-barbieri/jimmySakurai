@@ -364,17 +364,6 @@ html{
     border: 3px solid blue;
 }
 
-.hr8{
-    transform: translateY(7rem);
-}
-
-.hr9{
-    transform: translateY(17rem);
-}
-
-.hr10{
-    transform: translateY(27rem);
-}
 
 .if-you-never{
     font-size: 1.5rem;
@@ -400,5 +389,34 @@ html{
     transform: translateY(9.5rem);
     opacity: 0.5;
     
+}
+
+/* THIRTY YEARS ARTICLE */
+
+#thirty-years{
+    height: 110vh;
+    max-width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #804B4B;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+    font-family: fenwick-outline, sans-serif;
+    border: 3px solid blue;
+}
+
+.hr8{
+    transform: translateY(7rem);
+}
+
+.hr9{
+    transform: translateY(17rem);
+}
+
+.hr10{
+    transform: translateY(27rem);
 }
 
