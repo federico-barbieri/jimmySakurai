@@ -101,19 +101,6 @@ html{
   
 }
 
-.hr5{
-    transform: translateY(55rem);
-    
-}
-
-.hr6{
-    transform: translateY(65rem);
-}
-
-.hr7{
-    transform: translateY(75rem);
-}
-
 /* VERTICAL STRINGS */
 
 .vertical{
@@ -387,7 +374,19 @@ html{
     margin: 10.5rem auto 0 auto;
     transform: translateY(9.5rem);
     opacity: 0.5;
+}
+
+.hr5{
+    transform: translateY(7rem);
     
+}
+
+.hr6{
+    transform: translateY(17rem);
+}
+
+.hr7{
+    transform: translateY(27rem);
 }
 
 /* THIRTY YEARS ARTICLE */
