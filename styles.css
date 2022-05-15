@@ -364,18 +364,6 @@ html{
     
 }
 
-.hr8{
-    transform: translateY(7rem);
-}
-
-.hr9{
-    transform: translateY(17rem);
-}
-
-.hr10{
-    transform: translateY(27rem);
-}
-
 .if-you-never{
     font-size: 1.5rem;
     width: 50%;
@@ -442,7 +430,18 @@ html{
     margin: 10.5rem auto 0 auto;
     transform: translateY(7rem);
     opacity: 0.5;
-    
+}
+
+.hr8{
+    transform: translateY(7rem);
+}
+
+.hr9{
+    transform: translateY(17rem);
+}
+
+.hr10{
+    transform: translateY(27rem);
 }
 
 
