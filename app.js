@@ -90,9 +90,9 @@ function stopMoving1(){
 
 // grab japan circle and turn it into a vinyl
 
-let japanCircle = document.querySelector('.japan');
+//let japanCircle = document.querySelector('.japan');
 
-japanCircle.addEventListener('click', () =>{
+//japanCircle.addEventListener('click', () =>{
 
-    japanCircle.classList.add('rotates');
-})
+ //   japanCircle.classList.add('rotates');
+//})

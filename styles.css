@@ -487,12 +487,30 @@ html{
     position: absolute;
     background-image: url('img/japan/japan.svg');
     background-repeat: no-repeat;
+    width: 4.5rem;
+    height: 4.5rem;
+    margin: 13.2rem auto 0 0;
+    opacity: 1;
+    z-index: 100;
+}
+
+.vinyl{
+    position: absolute;
+    background-image: url('img/japan/vinylblack.svg');
+    background-repeat: no-repeat;
     width: 8rem;
     height: 8rem;
     margin: 11.5rem auto 0 auto;
     opacity: 1;
-
 }
+
+
+
+
+
+
+
+
 
 /* animation for the vinyl to rotate */
 
