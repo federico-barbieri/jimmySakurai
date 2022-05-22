@@ -86,3 +86,13 @@ string1.addEventListener('click', () =>{
 function stopMoving1(){
     string1.classList.remove('stringMoves1');
 }
+
+
+// grab japan circle and turn it into a vinyl
+
+let japanCircle = document.querySelector('.japan');
+
+japanCircle.addEventListener('click', () =>{
+
+    japanCircle.classList.add('rotates');
+})

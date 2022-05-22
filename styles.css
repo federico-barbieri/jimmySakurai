@@ -483,16 +483,39 @@ html{
     margin: 12.5rem 2rem 0 auto;
 }
 
-.white-part4{
+.japan{
     position: absolute;
-    background-image: url('img/guitar/white-part.svg');
+    background-image: url('img/japan/japan.svg');
     background-repeat: no-repeat;
-    width: 15rem;
-    height: 15rem;
+    width: 20rem;
+    height: 20rem;
     margin: 10.5rem auto 0 auto;
-    transform: translateY(2.5rem);
-    opacity: 0.5;
+    opacity: 1;
+
 }
+
+/* animation for the vinyl to rotate */
+
+@keyframes vinylRotate {
+    100%{transform: rotate(360deg)};
+}
+
+@keyframes vinylOpacity {
+    0%{opacity: 0};
+    100%{opacity: 1};
+}
+
+.rotates{
+    animation: vinylRotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    
+    z-index: 100;
+    background-image: url('img/japan/vinyl2.svg');
+}
+
+
 
 .hr12{
     transform: translateY(0rem);
