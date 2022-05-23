@@ -605,3 +605,71 @@ html{
 }
 
 
+/* SAME EVERYTHING ARTICLE */
+
+#same-everything{
+    height: 100vh;
+    max-width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #804B4B;
+    text-align: center;
+    margin: 0 auto;
+    
+    font-family: fenwick-outline, sans-serif;
+    
+}
+
+.same-outfit{
+    font-size: 1.5rem;
+    width: 70%;
+    text-align: left;
+    margin: 2.3rem auto 0 2rem;
+}
+
+.same-instruments{
+    font-size: 1.5rem;
+    width: 50%;
+    text-align: right;
+    margin: 13.5rem 2rem 0 auto;
+}
+
+.same-sound-system{
+    font-size: 1.5rem;
+    width: 50%;
+    text-align: right;
+    margin: 13.5rem auto 0 2rem;
+}
+
+.white-part5{
+    position: absolute;
+    background-image: url('img/guitar/white-part.svg');
+    background-repeat: no-repeat;
+    width: 15rem;
+    height: 15rem;
+    margin: 10.5rem auto 0 auto;
+    transform: translateY(2.5rem);
+    opacity: 0.5;
+    z-index: 100;
+}
+
+
+.hr20{
+    transform: translateY(0rem);
+}
+
+.hr21{
+    transform: translateY(10rem);
+}
+
+.hr22{
+    transform: translateY(20rem);
+}
+
+.hr23{
+    transform: translateY(30rem);
+}
+
+
