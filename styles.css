@@ -721,3 +721,63 @@ html{
     transform: translateY(30rem);
 }
 
+
+/* PRISON ARTICLE */
+
+#prison{
+    height: 100vh;
+    max-width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #804B4B;
+    text-align: center;
+    margin: 0 auto;
+    
+    font-family: fenwick-outline, sans-serif;
+    
+}
+
+.for-many{
+    font-size: 1.5rem;
+    width: 70%;
+    text-align: left;
+    margin: 2.3rem auto 0 2rem;
+}
+
+.was-heaven{
+    font-size: 1.5rem;
+    width: 70%;
+    text-align: right;
+    margin: 15.5rem 2rem 0 auto;
+}
+
+.white-part6{
+    position: absolute;
+    background-image: url('img/guitar/white-part.svg');
+    background-repeat: no-repeat;
+    width: 15rem;
+    height: 15rem;
+    margin: 10.5rem auto 0 auto;
+    transform: translateY(2.5rem);
+    opacity: 0.5;
+    z-index: 100;
+}
+
+
+.hr24{
+    transform: translateY(0rem);
+}
+
+.hr25{
+    transform: translateY(10rem);
+}
+
+.hr26{
+    transform: translateY(20rem);
+}
+
+.hr27{
+    transform: translateY(30rem);
+}
