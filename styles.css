@@ -39,7 +39,7 @@ html{
 
 .tribute-p{
     font-size: 2rem;
-    margin: 3rem auto 2.5rem auto;
+    margin: 3rem auto 1rem auto;
     z-index: 100;
     color: black;
     font-stretch: extra-expanded;
@@ -49,9 +49,9 @@ html{
 
 .obsession-h1{
     margin: 0 auto;
-    transform: translateY(-4rem);
+    transform: translateY(0rem);
     font-size: 2.5rem;
-    z-index: 30;
+    z-index: 80;
     font-stretch: expanded;
     text-shadow: 3px 3px 8px black;
     writing-mode: vertical-lr;
@@ -61,55 +61,56 @@ html{
 
 .white-part{
     display: block;
+    position: absolute;
     background-image: url('img/guitar/white-part.svg');
     background-repeat: no-repeat;
-    width: 10rem;
-    height: 10rem;
+    width: 15rem;
+    height: 5rem;
     margin: 0rem auto 0 auto;
-    transform: translateY(3rem);
-    opacity: 0.5;
-    z-index: 10;
-}
-
-/* HORIZONTAL STRINGS */
-
-.horizontal{
-    
-    width: 100vw;
-    height: 0.3rem;
-    border: 2px solid white;
-    background-color: white;
-    border-radius: 10px;
-    opacity: 0.7;
-}
-
-.hr1{
-    transform: translateY(0rem);
-   
-}
-
-.hr2{
-    transform: translateY(12rem);
-   
-}
-
-.hr3{
     transform: translateY(22rem);
-   
+    opacity: 0.5;
+    z-index: 40;
+    border: 2px solid red;
 }
 
-.hr4{
-    transform: translateY(30.5rem); 
-    color: green;
-    background-color: green;
+.obsession-div1{
+    width: 100%;
+    height: 2rem;
+    border-top: 4px solid white;
+    z-index: 40;
 }
+
+.obsession-div2{
+    width: 100%;
+    height: 2rem;
+    border-top: 4px solid blue;
+    transform: translateY(-20rem);
+    z-index: 40;
+}
+
+.obsession-div3{
+    width: 100%;
+    height: 2rem;
+    border-top: 4px solid pink;
+    transform: translateY(-10rem);
+    z-index: 40;
+}
+
+.obsession-div4{
+    width: 100%;
+    height: 2rem;
+    border-top: 4px solid lightblue;
+    transform: translateY(0rem);
+    z-index: 40;
+}
+
 
 /* VERTICAL STRINGS */
 
 .vertical{
     position: absolute;
     width: 0.3rem;
-    height: 90vh;
+    height: 92vh;
     border: 2px solid white;
     background-color: white;
     border-radius: 10px;
