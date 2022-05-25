@@ -49,7 +49,7 @@ html{
 
 .obsession-h1{
     margin: 0 auto;
-    transform: translateY(-8rem);
+    transform: translateY(-4rem);
     font-size: 2.5rem;
     z-index: 30;
     font-stretch: expanded;
