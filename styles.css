@@ -10,7 +10,8 @@ html{
 /* CONTAINER */
 
 #container{
-    height: 220vh;
+    width: 90%;
+    height: auto;
     margin: 0 auto;
     font-family: fenwick-outline, sans-serif;
     font-weight: 400;
@@ -22,7 +23,7 @@ html{
 /* OBSESSION MAIN SCREEN */
 
 #obsession{
-    height: 140vh;
+    height: 100vh;
     max-width: 80vw;
     display: flex;
     flex-direction: column;
@@ -46,8 +47,8 @@ html{
 }
 
 .obsession-h1{
-    margin-top: 4rem;
-    font-size: 4.5rem;
+    margin-top: 2rem;
+    font-size: 3rem;
     z-index: 30;
     font-stretch: expanded;
     text-shadow: 3px 3px 8px black;
