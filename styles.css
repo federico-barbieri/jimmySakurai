@@ -34,11 +34,12 @@ html{
     margin: 0 auto;
     overflow: hidden;
     font-family: fenwick-outline, sans-serif;
+    border: 2px solid yellow;
 }
 
 .tribute-p{
     font-size: 2rem;
-    margin: 3rem auto 5rem auto;
+    margin: 3rem auto 2.5rem auto;
     z-index: 100;
     color: black;
     font-stretch: extra-expanded;
@@ -58,15 +59,15 @@ html{
 }
 
 .white-part{
-    position: absolute;
+    display: block;
     background-image: url('img/guitar/white-part.svg');
     background-repeat: no-repeat;
-    width: 15rem;
+    width: 50%;
     height: 15rem;
-    margin: 10.5rem auto 0 auto;
-    transform: translateY(37rem);
+    margin: 1rem auto 0 auto;
+    transform: translateY(1rem);
     opacity: 0.5;
-    overflow: scroll;
+    
 }
 
 /* HORIZONTAL STRINGS */
