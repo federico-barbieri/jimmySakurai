@@ -23,8 +23,8 @@ html{
 /* OBSESSION MAIN SCREEN */
 
 #obsession{
-    height: 90vh;
-    max-width: 80vw;
+    height: 95vh;
+    max-width: 90vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,7 +32,7 @@ html{
     background-color: #804B4B;
     text-align: center;
     margin: 0 auto;
-    overflow: hidden;
+    
     font-family: fenwick-outline, sans-serif;
     border: 2px solid yellow;
 }
@@ -49,7 +49,7 @@ html{
 
 .obsession-h1{
     margin: 0 auto;
-    transform: translateY(-4rem);
+    transform: translateY(-8rem);
     font-size: 2.5rem;
     z-index: 30;
     font-stretch: expanded;
@@ -63,8 +63,8 @@ html{
     display: block;
     background-image: url('img/guitar/white-part.svg');
     background-repeat: no-repeat;
-    width: 15rem;
-    height: 15rem;
+    width: 10rem;
+    height: 10rem;
     margin: 0rem auto 0 auto;
     transform: translateY(3rem);
     opacity: 0.5;
@@ -107,7 +107,7 @@ html{
 .vertical{
     position: absolute;
     width: 0.3rem;
-    height: 85vh;
+    height: 90vh;
     border: 2px solid white;
     background-color: white;
     border-radius: 10px;
@@ -338,8 +338,8 @@ html{
 /* NAME ARTICLE */
 
 #name{
-    height: 110vh;
-    max-width: 80vw;
+    height: 90vh;
+    max-width: 90vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -393,8 +393,8 @@ html{
 /* THIRTY YEARS ARTICLE */
 
 #thirty-years{
-    height: 100vh;
-    max-width: 80vw;
+    height: 90vh;
+    max-width: 90vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -452,8 +452,8 @@ html{
 /* BORN IN JAPAN ARTICLE */
 
 #born-in-japan{
-    height: 100vh;
-    max-width: 80vw;
+    height: 90vh;
+    max-width: 90vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -544,8 +544,8 @@ html{
 /* FROM THEN ONWARDS ARTICLE */
 
 #from-then-onwards{
-    height: 100vh;
-    max-width: 80vw;
+    height: 90vh;
+    max-width: 90vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -605,8 +605,8 @@ html{
 /* SAME EVERYTHING ARTICLE */
 
 #same-everything{
-    height: 100vh;
-    max-width: 80vw;
+    height: 90vh;
+    max-width: 90vw;
     display: flex;
     flex-direction: column;
     align-items: center;
