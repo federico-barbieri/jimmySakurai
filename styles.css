@@ -24,7 +24,7 @@ html{
 
 #obsession{
     height: 95vh;
-    max-width: 90vw;
+    width: 80vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,7 +34,7 @@ html{
     margin: 0 auto;
     
     font-family: fenwick-outline, sans-serif;
-    border: 2px solid yellow;
+    
 }
 
 .tribute-p{
@@ -76,7 +76,7 @@ html{
     
     opacity: 0.5;
     z-index: 40;
-    border: 2px solid red;
+    
 }
 
 .obsession-div1{
@@ -89,7 +89,7 @@ html{
 .obsession-div2{
     width: 100%;
     height: 20rem;
-    border-top: 4px solid blue;
+   
     transform: translateY(-20rem);
     z-index: 40;
 }
@@ -348,7 +348,7 @@ html{
 
 #name{
     height: 90vh;
-    max-width: 90vw;
+    width: 80vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -403,7 +403,7 @@ html{
 
 #thirty-years{
     height: 90vh;
-    max-width: 90vw;
+    width: 80vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -462,7 +462,7 @@ html{
 
 #born-in-japan{
     height: 90vh;
-    max-width: 90vw;
+    width: 80vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -554,7 +554,7 @@ html{
 
 #from-then-onwards{
     height: 90vh;
-    max-width: 90vw;
+    width: 80vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -615,7 +615,7 @@ html{
 
 #same-everything{
     height: 90vh;
-    max-width: 90vw;
+    width: 80vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -671,7 +671,7 @@ html{
 
 #no-room{
     height: 100vh;
-    max-width: 80vw;
+    width: 80vw;
     display: flex;
     flex-direction: column;
     align-items: center;
