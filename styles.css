@@ -20,10 +20,31 @@ html{
     color: white;
 }
 
+/* GREEDY */
+
+#greedy{
+display: grid;
+margin: 0 auto;
+width: 80vw;
+height: 800vh;
+grid-template-columns: 1fr;
+grid-template-rows: repeat(8, 1fr);
+row-gap: 0;
+grid-template-areas:
+"obsession"
+"name"
+"years"
+"japan"
+"onwards"
+"everything"
+"room"
+"prison";
+}
+
 /* OBSESSION MAIN SCREEN */
 
 #obsession{
-    height: 95vh;
+    height: 100vh;
     width: 80vw;
     display: flex;
     flex-direction: column;
@@ -32,13 +53,15 @@ html{
     background-color: #804B4B;
     text-align: center;
     margin: 0 auto;
-    
     font-family: fenwick-outline, sans-serif;
+    grid-area: obsession;
+    background-image: url('img/guitar/first-guitar.svg');
+    background-repeat: no-repeat;
     
 }
 
 .tribute-p{
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 3rem auto 1rem auto;
     z-index: 100;
     color: black;
@@ -47,14 +70,8 @@ html{
     z-index: 60;
 }
 
-@media only screen and (max-width: 300px){
-    .tribute-p{
-        font-size: 1.5rem;
-    }
-}
-
 .obsession-h1{
-    margin: 0 auto;
+    margin: 1.5rem auto 0 auto;
     transform: translateY(0rem);
     font-size: 2.5rem;
     z-index: 80;
@@ -64,52 +81,6 @@ html{
     text-orientation: upright;
     color: #E5890A;
 }
-
-.white-part{
-    display: block;
-    
-    background-image: url('img/guitar/white-part.svg');
-    background-repeat: no-repeat;
-    width: 15rem;
-    height: 5rem;
-    margin: 1rem auto 0 auto;
-    
-    opacity: 0.5;
-    z-index: 40;
-    
-}
-
-.obsession-div1{
-    width: 100%;
-    height: 2rem;
-    border-top: 4px solid white;
-    z-index: 40;
-}
-
-.obsession-div2{
-    width: 100%;
-    height: 20rem;
-   
-    transform: translateY(-20rem);
-    z-index: 40;
-}
-
-.obsession-div3{
-    width: 100%;
-    height: 2rem;
-    border-top: 4px solid pink;
-    transform: translateY(-15rem);
-    z-index: 40;
-}
-
-.obsession-div4{
-    width: 100%;
-    height: 2rem;
-    border-top: 4px solid lightblue;
-    transform: translateY(-5rem);
-    z-index: 40;
-}
-
 
 /* VERTICAL STRINGS */
 
@@ -347,7 +318,7 @@ html{
 /* NAME ARTICLE */
 
 #name{
-    height: 90vh;
+    height: 100vh;
     width: 80vw;
     display: flex;
     flex-direction: column;
@@ -358,21 +329,23 @@ html{
     margin: 0 auto;
     overflow: hidden;
     font-family: fenwick-outline, sans-serif;
-    
+    grid-area: name;
+    background-image: url('img/guitar/first-guitar.svg');
+    background-repeat: no-repeat;
 }
 
 .if-you-never{
     font-size: 1.5rem;
     width: 50%;
     text-align: left;
-    margin: 10.3rem auto 0 2rem;
+    margin: 0rem auto 0 2rem;
 }
 
 .not-exist{
     font-size: 1.5rem;
     width: 50%;
     text-align: right;
-    margin: 13rem 2rem 0 auto;
+    margin: 2rem 2rem 0 auto;
 }
 
 .white-part2{
@@ -386,23 +359,10 @@ html{
     opacity: 0.5;
 }
 
-.hr5{
-    transform: translateY(10rem);
-    
-}
-
-.hr6{
-    transform: translateY(20rem);
-}
-
-.hr7{
-    transform: translateY(30rem);
-}
-
 /* THIRTY YEARS ARTICLE */
 
 #thirty-years{
-    height: 90vh;
+    height: 100vh;
     width: 80vw;
     display: flex;
     flex-direction: column;
@@ -413,7 +373,7 @@ html{
     margin: 0 auto;
     overflow: hidden;
     font-family: fenwick-outline, sans-serif;
-    
+    grid-area: years;
 }
 
 .for-the-past{
@@ -441,27 +401,11 @@ html{
     opacity: 0.5;
 }
 
-.hr8{
-    transform: translateY(0rem);
-}
-
-.hr9{
-    transform: translateY(10rem);
-}
-
-.hr10{
-    transform: translateY(20rem);
-}
-
-.hr11{
-    transform: translateY(30rem);
-}
-
 
 /* BORN IN JAPAN ARTICLE */
 
 #born-in-japan{
-    height: 90vh;
+    height: 100vh;
     width: 80vw;
     display: flex;
     flex-direction: column;
@@ -470,9 +414,8 @@ html{
     background-color: #804B4B;
     text-align: center;
     margin: 0 auto;
-    
     font-family: fenwick-outline, sans-serif;
-    
+    grid-area: japan;
 }
 
 .akio-was-born{
@@ -532,28 +475,10 @@ html{
 }
 
 
-
-.hr12{
-    transform: translateY(0rem);
-}
-
-.hr13{
-    transform: translateY(10rem);
-}
-
-.hr14{
-    transform: translateY(20rem);
-}
-
-.hr15{
-    transform: translateY(30rem);
-}
-
-
 /* FROM THEN ONWARDS ARTICLE */
 
 #from-then-onwards{
-    height: 90vh;
+    height: 100vh;
     width: 80vw;
     display: flex;
     flex-direction: column;
@@ -562,9 +487,8 @@ html{
     background-color: #804B4B;
     text-align: center;
     margin: 0 auto;
-    
     font-family: fenwick-outline, sans-serif;
-    
+    grid-area: onwards;
 }
 
 .akio-would-aspire{
@@ -594,27 +518,10 @@ html{
 }
 
 
-.hr16{
-    transform: translateY(0rem);
-}
-
-.hr17{
-    transform: translateY(10rem);
-}
-
-.hr18{
-    transform: translateY(20rem);
-}
-
-.hr19{
-    transform: translateY(30rem);
-}
-
-
 /* SAME EVERYTHING ARTICLE */
 
 #same-everything{
-    height: 90vh;
+    height: 100vh;
     width: 80vw;
     display: flex;
     flex-direction: column;
@@ -623,9 +530,8 @@ html{
     background-color: #804B4B;
     text-align: center;
     margin: 0 auto;
-    
     font-family: fenwick-outline, sans-serif;
-    
+    grid-area: everything;
 }
 
 .same-outfit{
@@ -650,23 +556,6 @@ html{
 }
 
 
-.hr20{
-    transform: translateY(0rem);
-}
-
-.hr21{
-    transform: translateY(10rem);
-}
-
-.hr22{
-    transform: translateY(20rem);
-}
-
-.hr23{
-    transform: translateY(30rem);
-}
-
-
 /* NO ROOM ARTICLE */
 
 #no-room{
@@ -679,9 +568,8 @@ html{
     background-color: #804B4B;
     text-align: center;
     margin: 0 auto;
-    
     font-family: fenwick-outline, sans-serif;
-    
+    grid-area: room;
 }
 
 .for-mistakes{
@@ -711,23 +599,6 @@ html{
 }
 
 
-.hr24{
-    transform: translateY(0rem);
-}
-
-.hr25{
-    transform: translateY(10rem);
-}
-
-.hr26{
-    transform: translateY(20rem);
-}
-
-.hr27{
-    transform: translateY(30rem);
-}
-
-
 /* PRISON ARTICLE */
 
 #prison{
@@ -740,9 +611,8 @@ html{
     background-color: #804B4B;
     text-align: center;
     margin: 0 auto;
-    
     font-family: fenwick-outline, sans-serif;
-    
+    grid-area: prison;
 }
 
 .for-many{
@@ -769,21 +639,4 @@ html{
     transform: translateY(2.5rem);
     opacity: 0.5;
     z-index: 100;
-}
-
-
-.hr28{
-    transform: translateY(0rem);
-}
-
-.hr29{
-    transform: translateY(10rem);
-}
-
-.hr30{
-    transform: translateY(20rem);
-}
-
-.hr31{
-    transform: translateY(30rem);
 }
