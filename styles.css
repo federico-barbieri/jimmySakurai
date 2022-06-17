@@ -56,9 +56,21 @@ overflow: hidden;
     margin: 0 auto;
     font-family: fenwick-outline, sans-serif;
     grid-area: obsession;
-    background-image: url('img/guitar/guitar2.svg');
+    background-image: url('img/guitar/obsession/guitar-300.svg');
     background-repeat: no-repeat;
     background-position-y: center;
+}
+
+@media only screen and (min-width: 680px){
+    #obsession{
+        background-image: url('img/guitar/obsession/guitar-680.svg');
+    }
+}
+
+@media only screen and (min-width: 1150px){
+    #obsession{
+        background-image: url('img/guitar/obsession/guitar-1150.svg');
+    }
 }
 
 .tribute-p{
@@ -629,14 +641,4 @@ overflow: hidden;
     margin: 15.5rem 2rem 0 auto;
 }
 
-.white-part6{
-    position: absolute;
-    background-image: url('img/guitar/white-part.svg');
-    background-repeat: no-repeat;
-    width: 15rem;
-    height: 15rem;
-    margin: 10.5rem auto 0 auto;
-    transform: translateY(2.5rem);
-    opacity: 0.5;
-    z-index: 100;
-}
+
