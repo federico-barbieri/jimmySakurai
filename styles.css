@@ -337,44 +337,64 @@ overflow: hidden;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    background-color: #804B4B;
+    background-color: #804B4B;    
     text-align: center;
     margin: 0 auto;
     overflow: hidden;
     font-family: fenwick-outline, sans-serif;
     grid-area: name;
-
+    border: 2px solid white;
 }
 
 .if-you-never{
     font-size: 1.5rem;
-    width: 50%;
+    width: 60%;
     text-align: left;
     margin: 0rem auto 0 2rem;
 }
 
-.not-exist{
-    font-size: 1.5rem;
-    width: 50%;
-    text-align: right;
-    margin: 2rem 2rem 0 auto;
+.akio-id{
+   
+    background-image: url('img/name/akio-id.svg');
+    background-repeat: no-repeat;
+    width: 10rem;
+    height: 8rem;
+    margin: 3rem auto 0 auto;
+    opacity: 1;
 }
 
-.akio-id{
+.jimmy-id{
+    position: absolute;
+    background-image: url('img/name/jimmy-id.svg');
+    background-repeat: no-repeat;
+    width: 10rem;
+    height: 8rem;
+    margin: 10rem auto 0 auto;
+    opacity: 1;
+}
+
+.name-white-thing{
     display: block;
-    width: 80vw;
+    width: 60vw;
     height: auto;
     margin: 2rem auto;
 }
 
-.jimmy-id{
-    
-    width: 80vw;
-    height: auto;
-    position: absolute;
-    transform: translateY(20rem);
-    margin-top: 11rem;
+.not-exist{
+    font-size: 1.5rem;
+    width: 70%;
+    text-align: right;
+    margin: 2rem 2rem 0 auto;
 }
+
+.name-white-thing2{
+    display: block;
+    width: 60vw;
+    height: auto;
+    margin: 2rem auto;
+}
+
+
 
 /* THIRTY YEARS ARTICLE */
 
@@ -400,11 +420,37 @@ overflow: hidden;
     margin: 1.3rem auto 0 2rem;
 }
 
+.fingerprint1{
+    background-image: url('img/years/fingerprint.svg');
+    background-repeat: no-repeat;
+    width: 10rem;
+    height: 8rem;
+    margin: 2rem auto 0 auto;
+    opacity: 1;
+}
+
+.fingerprint2{
+    position: absolute;
+    background-image: url('img/years/fingerprint.svg');
+    background-repeat: no-repeat;
+    width: 10rem;
+    height: 8rem;
+    margin: 10.3rem auto 0 auto;
+    opacity: 1;
+}
+
+.years-white-thing{
+    display: block;
+    width: 60vw;
+    height: auto;
+    margin: 2rem auto; 
+}
+
 .jimmy-page{
     font-size: 1.5rem;
     width: 50%;
     text-align: right;
-    margin: 12.5rem 2rem 0 auto;
+    margin: 2rem 2rem 0 auto;
 }
 
 
