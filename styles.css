@@ -360,15 +360,20 @@ overflow: hidden;
     margin: 2rem 2rem 0 auto;
 }
 
-.white-part2{
+.akio-id{
+    display: block;
+    width: 80vw;
+    height: auto;
+    margin: 2rem auto;
+}
+
+.jimmy-id{
+    
+    width: 80vw;
+    height: auto;
     position: absolute;
-    background-image: url('img/guitar/white-part.svg');
-    background-repeat: no-repeat;
-    width: 15rem;
-    height: 15rem;
-    margin: 10.5rem auto 0 auto;
-    transform: translateY(13rem);
-    opacity: 0.5;
+    transform: translateY(20rem);
+    margin-top: 11rem;
 }
 
 /* THIRTY YEARS ARTICLE */
@@ -400,17 +405,6 @@ overflow: hidden;
     width: 50%;
     text-align: right;
     margin: 12.5rem 2rem 0 auto;
-}
-
-.white-part3{
-    position: absolute;
-    background-image: url('img/guitar/white-part.svg');
-    background-repeat: no-repeat;
-    width: 15rem;
-    height: 15rem;
-    margin: 10.5rem auto 0 auto;
-    transform: translateY(2.5rem);
-    opacity: 0.5;
 }
 
 
@@ -517,18 +511,6 @@ overflow: hidden;
     margin: 13.5rem 2rem 0 auto;
 }
 
-.white-part4{
-    position: absolute;
-    background-image: url('img/guitar/white-part.svg');
-    background-repeat: no-repeat;
-    width: 15rem;
-    height: 15rem;
-    margin: 10.5rem auto 0 auto;
-    transform: translateY(2.5rem);
-    opacity: 0.5;
-    z-index: 100;
-}
-
 
 /* SAME EVERYTHING ARTICLE */
 
@@ -596,18 +578,6 @@ overflow: hidden;
     width: 70%;
     text-align: center;
     margin: 15.5rem auto 0 auto;
-}
-
-.white-part5{
-    position: absolute;
-    background-image: url('img/guitar/white-part.svg');
-    background-repeat: no-repeat;
-    width: 15rem;
-    height: 15rem;
-    margin: 10.5rem auto 0 auto;
-    transform: translateY(2.5rem);
-    opacity: 0.5;
-    z-index: 100;
 }
 
 
