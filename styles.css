@@ -64,7 +64,7 @@ overflow: hidden;
 
 
 .tribute-p{
-    font-size: 6vw;
+    font-size: 8vw;
     margin: 3rem auto 1rem auto;
     z-index: 100;
     color: white;
@@ -403,7 +403,7 @@ overflow: hidden;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    background-color: #804B4B;
+    background-color: #4C3D36;
     text-align: center;
     margin: 0 auto;
     overflow: hidden;
@@ -416,6 +416,16 @@ overflow: hidden;
     width: 70%;
     text-align: left;
     margin: 1.3rem auto 0 2rem;
+    z-index: 8;
+    color: black;
+}
+
+.years-new-background{
+    height: 100vh;
+    width: 100vw;
+    background-color: #E1B45F;
+    position: absolute;
+    z-index: 7;
 }
 
 .fingerprint1{
@@ -425,6 +435,7 @@ overflow: hidden;
     height: 8rem;
     margin: 2rem auto 0 auto;
     opacity: 1;
+    z-index: 8;
 }
 
 .fingerprint2{
@@ -435,13 +446,17 @@ overflow: hidden;
     height: 8rem;
     margin: 10.3rem auto 0 auto;
     opacity: 1;
+    z-index: 8;
 }
 
-.years-white-thing{
-    display: block;
-    width: 60vw;
-    height: auto;
-    margin: 2rem auto; 
+.years-circle1{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #1B0A08;
+    opacity: 0.8;
+    z-index: 9;
+    margin: 5rem auto 3rem auto;
 }
 
 .jimmy-page{
@@ -449,6 +464,18 @@ overflow: hidden;
     width: 50%;
     text-align: right;
     margin: 2rem 2rem 0 auto;
+    z-index: 8;
+    color: black;
+}
+
+.years-circle2{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #1B0A08;
+    opacity: 0.8;
+    z-index: 9;
+    margin: 5rem auto 3rem auto;
 }
 
 
@@ -461,7 +488,7 @@ overflow: hidden;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    background-color: #804B4B;
+    background-color: #E1B45F;
     text-align: center;
     margin: 0 auto;
     font-family: fenwick-outline, sans-serif;
@@ -473,6 +500,7 @@ overflow: hidden;
     width: 70%;
     text-align: left;
     margin: 1.3rem auto 0 2rem;
+    color: black;
 }
 
 .after-listening{
@@ -480,6 +508,7 @@ overflow: hidden;
     width: 50%;
     text-align: right;
     margin: 12.5rem 2rem 0 auto;
+    color: black;
 }
 
 .japan{
@@ -501,6 +530,33 @@ overflow: hidden;
     height: 8rem;
     margin: 11.5rem auto 0 auto;
     opacity: 1;
+}
+
+.born-double-circle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 80vw;
+}
+
+.born-circle1{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #1B0A08;
+    opacity: 0.8;
+    z-index: 9;
+    margin: 5rem auto 3rem auto;
+}
+.born-circle2{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: #1B0A08;
+    opacity: 0.8;
+    z-index: 9;
+    margin: 5rem auto 3rem auto;
 }
 
 /* animation for the vinyl to rotate */
@@ -534,7 +590,7 @@ overflow: hidden;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    background-color: #804B4B;
+    background-color: #E1B45F;
     text-align: center;
     margin: 0 auto;
     font-family: fenwick-outline, sans-serif;
@@ -583,7 +639,7 @@ overflow: hidden;
     background-color: #F7DDD3;
     opacity: 0.5;
     z-index: 9;
-    margin: 3rem auto 0rem auto;
+    margin: 6rem auto 0rem auto;
 }
 
 
@@ -601,6 +657,34 @@ overflow: hidden;
     margin: 0 auto;
     font-family: fenwick-outline, sans-serif;
     grid-area: everything;
+}
+
+.same-double-circle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 80vw;
+    z-index: 10;
+}
+
+.same-circle1{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.8;
+    z-index: 9;
+    margin: 5rem auto 3rem auto;
+}
+.same-circle2{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background-color: white;
+    opacity: 0.8;
+    z-index: 9;
+    margin: 5rem auto 3rem auto;
 }
 
 .same-outfit{
@@ -634,7 +718,7 @@ overflow: hidden;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    background-color: #804B4B;
+    background-color: #4E382E;
     text-align: center;
     margin: 0 auto;
     font-family: fenwick-outline, sans-serif;
@@ -645,14 +729,41 @@ overflow: hidden;
     font-size: 1.5rem;
     width: 70%;
     text-align: center;
-    margin: 2.3rem auto 0 auto;
+    margin: 4rem auto 2rem auto;
+    z-index: 8;
+}
+
+.no-room-new-background{
+    height: 100vh;
+    width: 100vw;
+    background-color: #3A1C09;
+    position: absolute;
+    z-index: 7;
+}
+
+.mistake-white-thing1{
+    display: block;
+    width: 40vw;
+    height: auto;
+    margin: 2rem auto 4rem auto;
+    z-index: 8;
 }
 
 .only-improvements{
     font-size: 1.5rem;
     width: 70%;
     text-align: center;
-    margin: 15.5rem auto 0 auto;
+    margin: 2rem auto 2rem auto;
+    z-index: 8;
+}
+
+.mistake-white-thing2{
+    display: block;
+    width: 40vw;
+    height: auto;
+    margin: 5rem auto 2rem auto;
+    z-index: 8;
+    
 }
 
 
@@ -665,7 +776,7 @@ overflow: hidden;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    background-color: #804B4B;
+    background-color: #3A1C09;
     text-align: center;
     margin: 0 auto;
     font-family: fenwick-outline, sans-serif;
