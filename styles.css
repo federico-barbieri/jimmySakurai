@@ -659,32 +659,15 @@ overflow: hidden;
     grid-area: everything;
 }
 
-.same-double-circle{
+/* double outfit */
+
+.same-double-outfit{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    width: 80vw;
+    width: 100vw;
     z-index: 10;
-}
-
-.same-circle1{
-    width: 2rem;
-    height: 2rem;
-    border-radius: 50%;
-    background-color: white;
-    opacity: 0.8;
-    z-index: 9;
-    margin: 5rem auto 3rem auto;
-}
-.same-circle2{
-    width: 2rem;
-    height: 2rem;
-    border-radius: 50%;
-    background-color: white;
-    opacity: 0.8;
-    z-index: 9;
-    margin: 5rem auto 3rem auto;
 }
 
 .same-outfit{
@@ -694,18 +677,74 @@ overflow: hidden;
     margin: 3.3rem auto 0 2rem;
 }
 
+.same-outfit-svg{
+   
+    background-image: url('img/same/cool-pants.svg');
+    background-repeat: no-repeat;
+    width: 10rem;
+    height: 8rem;
+    margin: 3.3rem -2rem 0 auto;
+    opacity: 1;
+    z-index: 8;
+}
+
+/* double instrument */
+
+.same-double-instruments{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    z-index: 10;
+}
+
 .same-instruments{
     font-size: 1.5rem;
-    width: 50%;
-    text-align: right;
+    width: 40%;
+    text-align: left;
     margin: 6rem 2rem 0 auto;
+}
+
+.same-instruments-svg{
+   
+    background-image: url('img/same/cool-guitar.svg');
+    background-repeat: no-repeat;
+    width: 10rem;
+    height: 8rem;
+    margin: 3.3rem auto 0 2rem;
+    opacity: 1;
+    z-index: 8;
+}
+
+/* double sound */
+
+.same-double-sound{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    z-index: 10;
 }
 
 .same-sound-system{
     font-size: 1.5rem;
-    width: 50%;
+    width: 40%;
     text-align: left;
-    margin: 5.5rem auto 0 2rem;
+    margin: 3.3rem auto 0 2rem;
+}
+
+.same-sound-svg{
+   
+    background-image: url('img/same/sound-vector.svg');
+    background-repeat: no-repeat;
+    width: 10rem;
+    height: 8rem;
+    margin: 3.3rem auto 0 auto;
+    opacity: 1;
+    z-index: 8;
+    transform: scale(0.5);
 }
 
 
