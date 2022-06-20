@@ -26,9 +26,9 @@ html{
 display: grid;
 margin: 0 auto;
 width: 100vw;
-height: 800vh;
+height: 820vh;
 grid-template-columns: 1fr;
-grid-template-rows: repeat(8, 1fr);
+grid-template-rows: 100vh 100vh 120vh 100vh 100vh 100vh 100vh 100vh;
 row-gap: 0;
 grid-template-areas:
 "obsession"
@@ -71,7 +71,6 @@ overflow: hidden;
 
 .obsession-h1{
     margin: 1.5rem auto 0 auto;
-    transform: translateY(0rem);
     font-size: 12vw;
     z-index: 80;
     font-stretch: expanded;
@@ -81,11 +80,44 @@ overflow: hidden;
     color: #E5890A;
 }
 
-.obsession-white-thing{
-    display: block;
-    width: 13rem;
-    height: 13rem;
-    margin: 0rem auto;
+@media only screen and (min-width: 350px){
+    .obsession-h1{
+        font-size: 8vw;
+
+    }
+}
+
+@media only screen and (min-width: 500px){
+    .tribute-p{
+        font-size: 6vw;
+
+    }
+
+    .obsession-h1{
+        font-size: 6vw;
+    }
+}
+
+@media only screen and (min-width: 650px){
+    .tribute-p{
+        font-size: 5vw;
+
+    }
+
+    .obsession-h1{
+        font-size: 4vw;
+    }
+}
+
+@media only screen and (min-width: 800px){
+    .obsession-h1{
+        margin: 3rem auto 0 auto;
+        
+        font-size: 8vw;
+
+        writing-mode:horizontal-tb;
+
+    }
 }
 
 /* VERTICAL STRINGS */
@@ -346,6 +378,15 @@ overflow: hidden;
     margin: 0rem auto 0 2rem;
 }
 
+@media only screen and (min-width: 800px){
+    .if-you-never{
+        font-size: 2.5rem;
+        width: 60%;
+        text-align: left;
+        margin: 0rem auto 0 2rem;
+    }
+}
+
 .akio-id{
    
     background-image: url('img/name/akio-id.svg');
@@ -354,6 +395,18 @@ overflow: hidden;
     height: 8rem;
     margin: 3rem auto 0 auto;
     opacity: 1;
+}
+
+@media only screen and (min-width: 800px){
+    .akio-id{
+   
+        background-image: url('img/name/akio-id.svg');
+        background-repeat: no-repeat;
+        width: 13rem;
+        height: 10rem;
+        margin: 6rem auto 0 auto;
+        opacity: 1;
+    }
 }
 
 .jimmy-id{
@@ -366,12 +419,59 @@ overflow: hidden;
     opacity: 1;
 }
 
+@media only screen and (min-width: 310px){
+    .jimmy-id{
+        position: absolute;
+        background-image: url('img/name/jimmy-id.svg');
+        background-repeat: no-repeat;
+        width: 10rem;
+        height: 8rem;
+        margin: 8rem auto 0 auto;
+        opacity: 1;
+    } 
+}
+
+@media only screen and (min-width: 449px){
+    .jimmy-id{
+        position: absolute;
+        background-image: url('img/name/jimmy-id.svg');
+        background-repeat: no-repeat;
+        width: 10rem;
+        height: 8rem;
+        margin: 6rem auto 0 auto;
+        opacity: 1;
+    } 
+}
+
+@media only screen and (min-width: 800px){
+    .jimmy-id{
+        position: absolute;
+        background-image: url('img/name/jimmy-id.svg');
+        background-repeat: no-repeat;
+        width: 13rem;
+        height: 10rem;
+        margin: 12rem auto 0 auto;
+        opacity: 1;
+    } 
+}
+
+@media only screen and (min-width: 1317px){
+    .jimmy-id{
+        position: absolute;
+        background-image: url('img/name/jimmy-id.svg');
+        background-repeat: no-repeat;
+        width: 13rem;
+        height: 10rem;
+        margin: 9rem auto 0 auto;
+        opacity: 1;
+    } 
+}
+
 .name-white-thing{
     display: block;
     width: 60vw;
     height: auto;
-    margin: 2rem auto;
-    
+    margin: 2rem auto; 
 }
 
 .not-exist{
@@ -388,12 +488,39 @@ overflow: hidden;
     margin: 2rem auto;
 }
 
+@media only screen and (min-width: 400px){
+    .name-white-thing{
+        width: 30vw;
+    }
+
+    .name-white-thing2{
+        width: 30vw;
+    }
+}
+
+@media only screen and (min-width: 800px){
+
+    .not-exist{
+        font-size: 2.5rem;
+        width: 70%;
+ 
+    }
+
+    .name-white-thing{
+        width: 20vw;
+    }
+
+    .name-white-thing2{
+        width: 20vw;
+    }
+}
+
 
 
 /* THIRTY YEARS ARTICLE */
 
 #thirty-years{
-    height: 100vh;
+    height: 120vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -405,7 +532,6 @@ overflow: hidden;
     overflow: hidden;
     font-family: fenwick-outline, sans-serif;
     grid-area: years;
-    border: 2px solid red;
 }
 
 .for-the-past{
@@ -417,8 +543,19 @@ overflow: hidden;
     color: black;
 }
 
+@media only screen and (min-width: 800px){
+    .for-the-past{
+        font-size: 2.5rem;
+        width: 70%;
+        text-align: left;
+        margin: 2rem auto 0 2rem;
+        z-index: 8;
+        color: black;
+    }
+}
+
 .years-new-background{
-    height: 100vh;
+    height: 120vh;
     width: 100vw;
     background-color: #E1B45F;
     position: absolute;
@@ -481,6 +618,17 @@ overflow: hidden;
     color: black;
 }
 
+@media only screen and (min-width: 800px){
+    .jimmy-page{
+        font-size: 2.5rem;
+        width: 60%;
+        text-align: right;
+        margin: 2rem 2rem 0 auto;
+        z-index: 8;
+        color: black;
+    }
+}
+
 .years-circle2-div{
     width: 100vw;
     z-index: 9;
@@ -523,13 +671,50 @@ overflow: hidden;
 
 .after-listening{
     font-size: 1.5rem;
-    width: 50%;
+    width: 70%;
     text-align: right;
-    margin: 12.5rem 2rem 0 auto;
+    margin: 14rem 2rem 0 auto;
     color: black;
 }
 
+@media only screen and (min-width: 450px){
+    #greedy{
+        height: 840vh;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100vh 100vh 120vh 120vh 100vh 100vh 100vh 100vh;
+    }
 
+    #born-in-japan{
+        height: 120vh;
+    }
+
+    .after-listening{
+        font-size: 1.5rem;
+        width: 50%;
+        text-align: right;
+        margin: 15rem 2rem 0 auto;
+        color: black;
+    }
+}
+
+@media only screen and (min-width: 800px){
+    .akio-was-born{
+        font-size: 2.5rem;
+        width: 70%;
+        text-align: left;
+        margin: 3rem auto 0 2rem;
+        color: black;
+    }
+
+    .after-listening{
+        font-size: 2.5rem;
+        width: 70%;
+        text-align: right;
+        margin: 15rem 2rem 0 auto;
+        color: black;
+        
+    }
+}
 
 .japan{
     position: absolute;
@@ -558,6 +743,17 @@ overflow: hidden;
     align-items: center;
     justify-content: space-around;
     width: 80vw;
+}
+
+@media only screen and (min-width: 800px){
+    .born-double-circle{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 80vw;
+        margin-top: 5rem;
+    }
 }
 
 .born-circle1{
@@ -660,6 +856,20 @@ overflow: hidden;
     opacity: 0.5;
     z-index: 9;
     margin: 6rem auto 0rem auto;
+}
+
+@media only screen and (min-width: 800px){
+    .akio-would-aspire{
+        font-size: 2.5rem;
+        width: 45%;
+        margin: 4rem auto 0 2rem;
+    }
+
+    .perform-exactly{
+        font-size: 2.5rem;
+        width: 45%;
+        margin: 1rem 2rem 0 auto;
+    }
 }
 
 
@@ -767,6 +977,111 @@ overflow: hidden;
     transform: scale(0.5);
 }
 
+@media only screen and (min-width: 500px){
+
+    #greedy{
+            height: 860vh;
+            grid-template-columns: 1fr;
+            grid-template-rows: 100vh 100vh 120vh 120vh 100vh 120vh 100vh 100vh;
+    }
+
+    #same-everything{
+        height: 120vh;
+    }
+
+    .same-double-outfit{
+        justify-content: space-around;
+        width: 100vw;
+        margin: 5rem auto 5rem auto; 
+    }
+
+    .same-outfit{
+        margin: 3.3rem auto 0 5rem;
+    }
+    
+    .same-outfit-svg{
+        margin: 3.3rem auto 0 auto;
+    }
+
+
+    .same-double-instruments{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        width: 70vw;
+        margin: 0 auto 5rem auto;
+        
+    }
+    
+    .same-instruments{
+        width: 50%;
+        margin: 0rem 1rem 0 auto;
+        text-align: right;
+    }
+    
+    .same-instruments-svg{
+        margin: 0rem auto 0 auto;
+        width: 10rem;
+        height: 8rem;
+    }
+
+
+    .same-double-sound{
+        justify-content: space-around;
+        width: 80vw;
+        margin: 0 auto;
+       
+    }
+    
+    .same-sound-system{
+        font-size: 1.5rem;
+        width: 50%;
+        text-align: left;
+        margin: 3.3rem auto 0 auto;
+    }
+    
+    .same-sound-svg{
+       
+        background-image: url('img/same/sound-vector.svg');
+        background-repeat: no-repeat;
+        width: 10rem;
+        height: 8rem;
+        margin: 3.3rem auto 0 auto;
+        opacity: 1;
+        z-index: 8;
+        transform: scale(0.5);
+    }
+}
+
+@media only screen and (min-width: 800px){
+
+
+    .same-outfit{
+        margin: 3.3rem auto 0 5rem;
+        font-size: 2.5rem;
+    }
+    
+    .same-instruments{
+        font-size: 2.5rem;
+    }
+    
+    .same-sound-system{
+        font-size: 2.5rem;
+    }
+
+}
+
+@media only screen and (min-width: 1200px){
+
+
+    .same-double-outfit{
+        width: 80vw;
+    }
+
+}
+
+
 
 /* NO ROOM ARTICLE */
 
@@ -822,7 +1137,51 @@ overflow: hidden;
     height: auto;
     margin: 5rem auto 2rem auto;
     z-index: 8;
+}
+
+@media only screen and (min-width: 400px){
+
+    .mistake-white-thing1{
+        width: 20vw;
+    }
     
+    .mistake-white-thing2{
+        width: 20vw;
+    }
+
+}
+
+@media only screen and (min-width: 800px){
+
+    .for-mistakes{
+        font-size: 2.5rem;
+    }
+
+
+    .only-improvements{
+        font-size: 2.5rem;
+    }
+
+    .mistake-white-thing1{
+        width: 15vw;
+    }
+    
+    .mistake-white-thing2{
+        width: 15vw;
+    }
+
+}
+
+@media only screen and (min-width: 1200px){
+
+    .mistake-white-thing1{
+        width: 10vw;
+    }
+    
+    .mistake-white-thing2{
+        width: 10vw;
+    }
+
 }
 
 
@@ -856,4 +1215,13 @@ overflow: hidden;
     margin: 15.5rem 2rem 0 auto;
 }
 
+@media only screen and (min-width: 800px){
+    .for-many{
+        font-size: 2.5rem;
+    }
+    
+    .was-heaven{
+        font-size: 2.5rem;
+    }
+}
 
