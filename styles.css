@@ -26,9 +26,9 @@ html{
 display: grid;
 margin: 0 auto;
 width: 100vw;
-height: 820vh;
+height: 890vh;
 grid-template-columns: 1fr;
-grid-template-rows: 100vh 100vh 120vh 100vh 100vh 100vh 100vh 100vh;
+grid-template-rows: 100vh 100vh 120vh 100vh 100vh 100vh 100vh 170vh;
 row-gap: 0;
 grid-template-areas:
 "obsession"
@@ -1188,12 +1188,12 @@ overflow: hidden;
 /* PRISON ARTICLE */
 
 #prison{
-    height: 100vh;
+    height: 170vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start;
+    justify-content: center;
     background-color: #3A1C09;
     text-align: center;
     margin: 0 auto;
@@ -1205,14 +1205,45 @@ overflow: hidden;
     font-size: 1.5rem;
     width: 70%;
     text-align: left;
-    margin: 2.3rem auto 0 2rem;
+    margin: 5rem auto 0 2rem;
+}
+
+.prison-svg{
+    
+    background-image: url('img/prison/cage.svg');
+    background-repeat: no-repeat;
+    width: 20rem;
+    height: 20rem;
+    margin: 8rem auto 8rem 2rem;
+    opacity: 1;
+    z-index: 100;
+}
+
+.prison-ladder{
+    position: absolute;
+    background-image: url('img/prison/ladder.svg');
+    background-repeat: no-repeat;
+    
+    width: 20rem;
+    height: 21rem;
+    margin: 0rem auto 0 3rem;
+    opacity: 1;
+    transform: translateY(-5rem);
+    z-index: 101;
 }
 
 .was-heaven{
     font-size: 1.5rem;
     width: 70%;
     text-align: right;
-    margin: 15.5rem 2rem 0 auto;
+    margin: 2rem 2rem 0 auto;
+}
+
+.to-perfection{
+    font-size: 1.5rem;
+    width: 70%;
+    text-align: center;
+    margin: 15.5rem auto 0 auto;
 }
 
 @media only screen and (min-width: 800px){
@@ -1221,6 +1252,10 @@ overflow: hidden;
     }
     
     .was-heaven{
+        font-size: 2.5rem;
+    }
+
+    .to-perfection{
         font-size: 2.5rem;
     }
 }
