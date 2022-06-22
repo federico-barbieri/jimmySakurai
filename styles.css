@@ -1193,7 +1193,7 @@ overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     background-color: #3A1C09;
     text-align: center;
     margin: 0 auto;
@@ -1212,21 +1212,23 @@ overflow: hidden;
     
     background-image: url('img/prison/cage.svg');
     background-repeat: no-repeat;
-    width: 20rem;
-    height: 20rem;
-    margin: 5rem auto 3rem 2rem;
+    width: 15rem;
+    height: 15rem;
+    margin: 5rem auto 3rem auto;
     opacity: 1;
     z-index: 100;
 }
+
+
 
 .prison-ladder{
     position: absolute;
     background-image: url('img/prison/ladder.svg');
     background-repeat: no-repeat;
     
-    width: 20rem;
-    height: 24rem;
-    margin: 5.5rem auto 0 5rem;
+    width: 15rem;
+    height: 20rem;
+    margin: 14rem auto 0 4rem;
     opacity: 1;
 
     z-index: 101;
@@ -1236,7 +1238,7 @@ overflow: hidden;
     font-size: 1.5rem;
     width: 70%;
     text-align: right;
-    margin: 2rem 2rem 2rem auto;
+    margin: 2rem 2rem 5rem auto;
 }
 
 .to-perfection{
