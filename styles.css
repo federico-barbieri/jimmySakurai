@@ -565,7 +565,7 @@ overflow: hidden;
         font-size: 2.5rem;
         width: 70%;
         text-align: left;
-        margin: 2rem auto 0 2rem;
+        margin: 2rem auto 2rem 2rem;
         z-index: 8;
         color: black;
     }
@@ -606,7 +606,37 @@ overflow: hidden;
     margin: 3.3rem auto 0 auto;
     opacity: 1;
     z-index: 8;
+}
 
+@media only screen and (min-width: 1000px){
+    .both-fingerprints{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: auto;
+        margin-top: 5rem;
+    }
+    
+    .fingerprint1{
+        position: absolute;
+        width: 10rem;
+        height: 8rem;
+        margin: 2rem auto 0 0.4rem;
+        opacity: 1;
+        z-index: 8;
+    
+    }
+    
+    .fingerprint2{
+        position: absolute;
+        width: 10rem;
+        height: 8rem;
+        margin: 3.3rem auto 0 auto;
+        opacity: 1;
+        z-index: 8;
+    }
 }
 
 .jimmy-page{
@@ -623,7 +653,7 @@ overflow: hidden;
         font-size: 2.5rem;
         width: 60%;
         text-align: right;
-        margin: 2rem 2rem 0 auto;
+        margin: 10rem 2rem 5rem auto;
         z-index: 8;
         color: black;
     }
