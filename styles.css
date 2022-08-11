@@ -27,9 +27,9 @@ html{
 display: grid;
 margin: 0 auto;
 width: 100vw;
-height: 870vh;
+height: 830vh;
 grid-template-columns: 1fr;
-grid-template-rows: 100vh 100vh 120vh 100vh 100vh 80vh 100vh 170vh;
+grid-template-rows: 100vh 100vh 120vh 100vh 100vh 90vh 100vh 120vh;
 row-gap: 0;
 grid-template-areas:
 "obsession"
@@ -752,7 +752,7 @@ overflow: hidden;
 /* SAME EVERYTHING ARTICLE */
 
 #same-everything{
-    height: 80vh;
+    height: 90vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
