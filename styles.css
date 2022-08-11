@@ -360,7 +360,6 @@ overflow: hidden;
     overflow: hidden;
     font-family: fenwick-outline, sans-serif;
     grid-area: name;
-    
 }
 
 .if-you-never{
@@ -646,6 +645,7 @@ overflow: hidden;
     margin: 13.4rem auto 0 0;
     opacity: 1;
     z-index: 100;
+    transform: scale(5);
 }
 
 .vinyl{
@@ -656,6 +656,7 @@ overflow: hidden;
     height: 8rem;
     margin: 11.5rem auto 0 auto;
     opacity: 1;
+    transform: scale(5);
 }
 
 .born-double-circle{
@@ -684,27 +685,6 @@ overflow: hidden;
     opacity: 0.8;
     z-index: 9;
     margin: 5rem auto 3rem auto;
-}
-
-/* animation for the vinyl to rotate */
-
-@keyframes vinylRotate {
-    100%{transform: rotate(360deg)};
-}
-
-@keyframes vinylOpacity {
-    0%{opacity: 0};
-    100%{opacity: 1};
-}
-
-.rotates{
-    animation: vinylRotate;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-fill-mode: forwards;
-    
-    z-index: 100;
-    background-image: url('img/japan/vinyl3.svg');
 }
 
 
@@ -1114,9 +1094,10 @@ overflow: hidden;
 /* VERTICAL STRINGS */
 
 .vertical{
+    
     position: absolute;
     width: 0.3rem;
-    height: 1170vh;
+    height: 120vh;
     border: 2px solid white;
     background-color: white;
     border-radius: 10px;
@@ -1174,7 +1155,7 @@ overflow: hidden;
     overflow: hidden;
     font-family: fenwick-outline, sans-serif;
     grid-area: name;
-    background-image: url('img/guitar/obsession/bg-mobi.svg'); 
+    background-image: none; 
 }
 
 .if-you-never{
@@ -1233,7 +1214,7 @@ overflow: hidden;
     overflow: hidden;
     font-family: fenwick-outline, sans-serif;
     grid-area: years;
-    background-image: url('img/guitar/obsession/bg-mobi.svg'); 
+    background-image: none; 
 }
 
 .years-circle1-div{
@@ -1273,7 +1254,7 @@ overflow: hidden;
 .horizontal-string-background{
     height: 190vh;
     width: 100vw;
-    background-image: url('img/guitar/obsession/bg-mobi.svg'); 
+    background-image: none; 
     position: absolute;
     z-index: 8;
 }
@@ -1347,7 +1328,7 @@ overflow: hidden;
     margin: 0 auto;
     font-family: fenwick-outline, sans-serif;
     grid-area: japan;
-    background-image: url('img/guitar/obsession/bg-mobi.svg'); 
+    background-image: none; 
 }
 
 .akio-was-born{
@@ -1370,21 +1351,23 @@ overflow: hidden;
     position: absolute;
     background-image: url('img/japan/japan.svg');
     background-repeat: no-repeat;
-    width: 4.2rem;
-    height: 4.2rem;
-    margin: 25rem auto 0 0;
+    width: 8rem;
+    height: 8rem;
+    margin: 21.5rem auto 0 0;
     opacity: 1;
     z-index: 100;
+    
 }
 
 .vinyl{
     position: absolute;
     background-image: url('img/japan/vinylblack.svg');
     background-repeat: no-repeat;
-    width: 8rem;
-    height: 8rem;
-    margin: 23.1rem auto 0 auto;
+    width: 15rem;
+    height: 15rem;
+    margin: 18rem auto 0 auto;
     opacity: 1;
+    
 }
 
 .born-double-circle{
@@ -1444,7 +1427,7 @@ overflow: hidden;
 .horizontal-string-background-onwards{
     height: 140vh;
     width: 100vw;
-    background-image: url('img/guitar/obsession/bg-mobi.svg'); 
+    background-image: none; 
     position: absolute;
     z-index: 8;
 }
@@ -1496,7 +1479,7 @@ overflow: hidden;
     margin: 0 auto;
     font-family: fenwick-outline, sans-serif;
     grid-area: everything;
-    background-image: url('img/guitar/obsession/bg-mobi.svg'); 
+    background-image: none; 
 }
 
 /* double outfit */
@@ -1520,11 +1503,12 @@ overflow: hidden;
    
     background-image: url('img/same/cool-pants.svg');
     background-repeat: no-repeat;
-    width: 10rem;
-    height: 8rem;
+    width: 15rem;
+    height: 12rem;
     margin: 3.3rem 2rem 0 auto;
     opacity: 1;
     z-index: 8;
+    
 }
 
 /* double instrument */
@@ -1547,8 +1531,8 @@ overflow: hidden;
    
     background-image: url('img/same/cool-guitar.svg');
     background-repeat: no-repeat;
-    width: 10rem;
-    height: 9rem;
+    width: 13rem;
+    height: 11rem;
     margin: 3.3rem auto 0 8rem;
     opacity: 1;
     z-index: 8;
@@ -1573,8 +1557,8 @@ overflow: hidden;
    
     background-image: url('img/same/sound-vector.svg');
     background-repeat: no-repeat;
-    width: 10rem;
-    height: 9rem;
+    width: 13rem;
+    height: 11rem;
     margin: 3.3rem 5rem 0 auto;
     opacity: 1;
     z-index: 8;
@@ -1616,7 +1600,7 @@ overflow: hidden;
 .horizontal-string-background-room{
     height: 160vh;
     width: 100vw;
-    background-image: url('img/guitar/obsession/bg-mobi.svg'); 
+    background-image: none; 
     position: absolute;
     z-index: 8;
 }
@@ -1660,7 +1644,7 @@ overflow: hidden;
     margin: 0 auto;
     font-family: fenwick-outline, sans-serif;
     grid-area: prison;
-    background-image: url('img/guitar/obsession/bg-mobi.svg'); 
+    background-image: none; 
 }
 
 .for-many{
@@ -1676,7 +1660,7 @@ overflow: hidden;
     background-repeat: no-repeat;
     width: 20rem;
     height: 20rem;
-    margin: 5rem auto 3rem 10rem;
+    margin: 5rem auto 3rem auto;
     opacity: 1;
     z-index: 100;
 }
