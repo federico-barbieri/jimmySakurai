@@ -1111,9 +1111,9 @@ overflow: hidden;
     display: grid;
     margin: 0 auto;
     width: 100vw;
-    height: 1170vh;
+    height: 1000vh;
     grid-template-columns: 1fr;
-    grid-template-rows: 100vh 120vh 180vh 150vh 130vh 150vh 140vh 200vh;
+    grid-template-rows: 100vh 120vh 150vh 130vh 110vh 120vh 140vh 130vh;
     row-gap: 0;
     grid-template-areas:
     "obsession"
@@ -1202,7 +1202,7 @@ overflow: hidden;
 /* THIRTY YEARS ARTICLE */
 
 #thirty-years{
-    height: 180vh;
+    height: 150vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -1215,6 +1215,7 @@ overflow: hidden;
     font-family: fenwick-outline, sans-serif;
     grid-area: years;
     background-image: none; 
+    border: 2px solid white;
 }
 
 .years-circle1-div{
@@ -1244,20 +1245,14 @@ overflow: hidden;
 
 
 .years-new-background{
-    height: 180vh;
-    width: 100vw;
+    height: 150vh;
+    width: 80vw;
     background-color: #E1B45F;
     position: absolute;
-    z-index: 7;
+    z-index: 6;
+    
 }
 
-.horizontal-string-background{
-    height: 190vh;
-    width: 100vw;
-    background-image: none; 
-    position: absolute;
-    z-index: 8;
-}
 
 .both-fingerprints{
     display: flex;
@@ -1317,7 +1312,7 @@ overflow: hidden;
 /* BORN IN JAPAN ARTICLE */
 
 #born-in-japan{
-    height: 150vh;
+    height: 130vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -1329,6 +1324,7 @@ overflow: hidden;
     font-family: fenwick-outline, sans-serif;
     grid-area: japan;
     background-image: none; 
+    z-index: 8;
 }
 
 .akio-was-born{
@@ -1402,7 +1398,7 @@ overflow: hidden;
 /* FROM THEN ONWARDS ARTICLE */
 
 #from-then-onwards{
-    height: 130vh;
+    height: 110vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -1414,22 +1410,15 @@ overflow: hidden;
     font-family: fenwick-outline, sans-serif;
     grid-area: onwards;
     z-index: 5;
+    
 }
 
 .onwards-new-background{
-    height: 130vh;
+    height: 110vh;
     width: 100vw;
     background-color: #4E382E;
     position: absolute;
     z-index: 7;
-}
-
-.horizontal-string-background-onwards{
-    height: 140vh;
-    width: 100vw;
-    background-image: none; 
-    position: absolute;
-    z-index: 8;
 }
 
 .onwards-circle1{
@@ -1468,7 +1457,7 @@ overflow: hidden;
 /* SAME EVERYTHING ARTICLE */
 
 #same-everything{
-    height: 150vh;
+    height: 120vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -1480,6 +1469,7 @@ overflow: hidden;
     font-family: fenwick-outline, sans-serif;
     grid-area: everything;
     background-image: none; 
+   
 }
 
 /* double outfit */
@@ -1487,14 +1477,14 @@ overflow: hidden;
 .same-double-outfit{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-around;
-    width: 100vw;
+    width: 80vw;
     z-index: 10;
 }
 
 .same-outfit{
-    margin: 3.3rem auto 0 5rem;
+    margin: 0rem auto 0 5rem;
     font-size: 4rem;
     width: 40%;
 }
@@ -1505,7 +1495,7 @@ overflow: hidden;
     background-repeat: no-repeat;
     width: 15rem;
     height: 12rem;
-    margin: 3.3rem 2rem 0 auto;
+    margin: 0rem 2rem 0 auto;
     opacity: 1;
     z-index: 8;
     
@@ -1518,7 +1508,7 @@ overflow: hidden;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    width: 100vw;
+    width: 80vw;
     z-index: 10;
 }
 
@@ -1545,7 +1535,7 @@ overflow: hidden;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    width: 100vw;
+    width: 80vw;
     z-index: 10;
 }
 
@@ -1559,7 +1549,7 @@ overflow: hidden;
     background-repeat: no-repeat;
     width: 13rem;
     height: 11rem;
-    margin: 3.3rem 5rem 0 auto;
+    margin: 3.3rem auto 0 auto;
     opacity: 1;
     z-index: 8;
 }
@@ -1633,7 +1623,7 @@ overflow: hidden;
 /* PRISON ARTICLE */
 
 #prison{
-    height: 200vh;
+    height: 130vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -1651,7 +1641,7 @@ overflow: hidden;
     font-size: 4rem;
     width: 70%;
     text-align: left;
-    margin: 5rem auto 0 2rem;
+    margin: 0rem auto 0 2rem;
 }
 
 .prison-svg{
