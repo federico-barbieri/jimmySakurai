@@ -27,9 +27,9 @@ html{
 display: grid;
 margin: 0 auto;
 width: 100vw;
-height: 830vh;
+height: 840vh;
 grid-template-columns: 1fr;
-grid-template-rows: 100vh 100vh 120vh 100vh 100vh 90vh 100vh 120vh;
+grid-template-rows: 100vh 100vh 120vh 100vh 100vh 90vh 100vh 130vh;
 row-gap: 0;
 grid-template-areas:
 "obsession"
@@ -1030,7 +1030,7 @@ overflow: hidden;
 /* PRISON ARTICLE */
 
 #prison{
-    height: 120vh;
+    height: 130vh;
     width: 100vw;
     display: flex;
     flex-direction: column;
